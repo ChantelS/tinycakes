@@ -1,0 +1,96 @@
+.navbar.navbar-default{
+	background-color: #8ae19a;	
+	/*width: 60%;*/
+}
+#logo{
+	/*float: left;*/
+}
+body{
+	padding-top: 80px;
+	background-image: url(images/backgrounds/symphony.png);
+}
+#gallery{
+	background-color: rgba(255, 255, 255, 0.7);
+	display: flex;
+	flex-direction: row;
+	flex-flow: row wrap;
+
+}
+h1{
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+}
+.additem{
+	text-align: center;
+	font-size: 15px;
+}
+.qwigley{
+	font-family: 'Qwigley', cursive;
+	color: #539c61;
+}
+h2{
+	 line-height: 0.5;
+}
+.image{
+	border: 1px solid black;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.giveyouglory{
+	font-family: 'Give You Glory', cursive;
+}
+#gallery img:hover{
+	opacity: 0.3;
+}
+#about{
+	margin: 0 auto;
+	background-color: rgba(86,196,197,0.2)
+}
+.arial{
+	font-family: Arial;
+}
+#history{
+	margin: 0 auto;
+	margin-top: 20px;
+	background-color: rgba(86,196,197,0.2)
+}
+footer{
+	width: 100%;
+	height: 220px;
+	background-color: #8ae19a;
+	margin-top: 20px;
+	text-align: center;
+}
+.contact{
+	font-family: 'Qwigley', cursive;
+	color:#f0ead6;
+	text-align: center;
+	font-size: 40px;
+}
+.fa.fa-facebook-official{
+	color: #3B5998;
+	margin-right: 30px;
+	text-shadow: 4px 4px 4px #fff;
+}
+.fa-snapchat{
+	color: yellow;
+	text-shadow: 4px 4px 4px #fff;
+	margin-right: 30px;
+}
+.fa-twitter{
+	color: #00aced;
+	text-shadow: 4px 4px 4px #fff;
+
+}
+.mailto{
+	font-size: 26px;
+	color: white;
+	text-decoration: none;
+}
+
+.copyright{
+	color: #000;
+	font-family: 'Qwigley', cursive;
+	font-size: 32px;
+}
